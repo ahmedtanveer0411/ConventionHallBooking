@@ -15,7 +15,7 @@ const app = express();
 
 // Define a route for the root path '/'
 app.get('/', (req, res) => {
-    res.send('Hello, Convention Hall Booking Application!!!');
+    res.send('Hello, Convention Hall Booking Application!!! Learning Git....');
 });
 
 app.get('/halls', (req, res) => {
